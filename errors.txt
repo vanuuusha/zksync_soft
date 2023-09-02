@@ -1,0 +1,1668 @@
+[INFO:2023-09-01 00:52:50,139]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 372, in zkbridge_bridge
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__nuxt"]/div/main/div/div[4]/form/div[5]/div[1]/button')))
+  File "C:\Users\Vanusha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 86, in until
+    value = method(self._driver)
+  File "C:\Users\Vanusha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 152, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\Vanusha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 739, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Vanusha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Vanusha\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.112)
+Stacktrace:
+	GetHandleVerifier [0x00007FF774BC52A2+57122]
+	(No symbol) [0x00007FF774B3EA92]
+	(No symbol) [0x00007FF774A0E3AB]
+	(No symbol) [0x00007FF7749EE1B9]
+	(No symbol) [0x00007FF774A6B417]
+	(No symbol) [0x00007FF774A7E24F]
+	(No symbol) [0x00007FF774A66DB3]
+	(No symbol) [0x00007FF774A3D2B1]
+	(No symbol) [0x00007FF774A3E494]
+	GetHandleVerifier [0x00007FF774E6EF82+2849794]
+	GetHandleVerifier [0x00007FF774EC1D24+3189156]
+	GetHandleVerifier [0x00007FF774EBACAF+3160367]
+	GetHandleVerifier [0x00007FF774C56D06+653702]
+	(No symbol) [0x00007FF774B4A208]
+	(No symbol) [0x00007FF774B462C4]
+	(No symbol) [0x00007FF774B463F6]
+	(No symbol) [0x00007FF774B367A3]
+	BaseThreadInitThunk [0x00007FFEC71D7614+20]
+	RtlUserThreadStart [0x00007FFEC8B826B1+33]
+
+
+[INFO:2023-09-01 02:38:24,359]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 297, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 20, in open_page
+    count_tab = len(self.driver.window_handles)
+AttributeError: 'Trader' object has no attribute 'driver'
+
+[INFO:2023-09-01 02:39:01,792]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 297, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 20, in open_page
+    count_tab = len(self.driver.window_handles)
+AttributeError: 'Trader' object has no attribute 'driver'
+
+[INFO:2023-09-01 02:40:58,803]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 297, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 20, in open_page
+    count_tab = len(self.driver.window_handles)
+AttributeError: 'Trader' object has no attribute 'driver'
+
+[INFO:2023-09-01 02:41:20,024]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 297, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 20, in open_page
+    count_tab = len(self.driver.window_handles)
+AttributeError: 'Trader' object has no attribute 'driver'
+
+[INFO:2023-09-01 02:41:30,716]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 297, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 20, in open_page
+    count_tab = len(self.driver.window_handles)
+AttributeError: 'Trader' object has no attribute 'driver'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 297, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 20, in open_page
+    count_tab = len(self.driver.window_handles)
+AttributeError: 'Trader' object has no attribute 'driver'
+
+[INFO:2023-09-01 03:31:53,206]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 297, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 20, in open_page
+    count_tab = len(self.driver.window_handles)
+AttributeError: 'Trader' object has no attribute 'driver'
+
+[INFO:2023-09-01 17:03:37,501]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:04:20,801]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:05:03,934]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:10:57,141]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:12:20,246]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 384, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:19:48,171]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:20:31,192]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:22:20,925]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 205, in inner
+    self.confirm_tx()
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 55, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 230, in confirm_tx
+    raise Exception('Не удался конфирм')
+Exception: Не удался конфирм
+
+[INFO:2023-09-01 17:24:43,327]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 386, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:25:56,927]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 386, in syncswap_add_liquiduty
+    time.sleep(30)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 386, in syncswap_add_liquiduty
+    time.sleep(30)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:31:00,468]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    self.confirm_tx()
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 55, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 230, in confirm_tx
+    raise Exception('Не удался конфирм')
+Exception: Не удался конфирм
+
+[INFO:2023-09-01 17:33:54,950]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    self.confirm_tx()
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 55, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 230, in confirm_tx
+    raise Exception('Не удался конфирм')
+Exception: Не удался конфирм
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    self.confirm_tx()
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 55, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 230, in confirm_tx
+    raise Exception('Не удался конфирм')
+Exception: Не удался конфирм
+
+[INFO:2023-09-01 17:38:22,043]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 387, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:39:05,915]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 387, in syncswap_add_liquiduty
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 387, in syncswap_add_liquiduty
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:39:50,896]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 387, in syncswap_add_liquiduty
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 387, in syncswap_add_liquiduty
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 387, in syncswap_add_liquiduty
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:44:07,199]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 389, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:45:00,673]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 389, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 389, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:45:54,546]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 389, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 389, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 206, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 389, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 35, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 17:54:14,134]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 390, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 36, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 24, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:07:23,542]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 390, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 36, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 24, in open_page
+    time.sleep(2)
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:08:26,358]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 390, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 36, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 24, in open_page
+    time.sleep(2)
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 390, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 36, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 24, in open_page
+    time.sleep(2)
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:11:05,161]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 207, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 390, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 36, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:19:28,276]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 211, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 304, in syncswap_swap
+    self.get_site('syncswap')
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 41, in get_site
+    self.now_sites[name] = self.driver.current_window_handle
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\undetected_chromedriver\__init__.py", line 806, in __getattribute__
+    return super().__getattribute__(item)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 481, in current_window_handle
+    return self.execute(Command.W3C_GET_CURRENT_WINDOW_HANDLE)["value"]
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.141)
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DE5E1B9]
+	(No symbol) [0x00007FF75DEDB417]
+	(No symbol) [0x00007FF75DEE0B8B]
+	(No symbol) [0x00007FF75DED6FA0]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-01 18:21:09,163]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 211, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 396, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/button/div/div[5]/a/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-01 18:23:13,511]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 211, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 396, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/button/div/div[5]/a/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-01 18:25:31,325]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 211, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 396, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/button/div/div[5]/a/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-01 18:31:45,320]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 212, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 397, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div[2]/div/div/div[2]/div/div[1]/div[2]/div[1]/div/button/div/div[5]/a/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-01 18:35:54,266]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 24, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:41:27,337]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 27, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:43:04,517]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 27, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:45:09,929]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 28, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:47:20,475]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 29, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:48:41,453]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 29, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:51:06,521]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 29, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 18:53:47,780]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 29, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 19:05:48,241]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 22, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 19:07:12,499]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 23, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 19:08:35,931]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 385, in syncswap_add_liquiduty
+    self.get_site('syncswap_liquid', init=False)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 33, in get_site
+    self.open_page(URLS[name])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\SeleniumMain.py", line 24, in open_page
+    self.driver.switch_to.window(self.driver.window_handles[count_tab])
+IndexError: list index out of range
+
+[INFO:2023-09-01 19:54:44,055]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 347, in mav_swap
+    self.mav_change_tokens(token1, count1, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 583, in mav_change_tokens
+    input1 = self.driver.find_element(By.XPATH, MAV_CONFIGS['token1_input'])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 739, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="mui-2"]"}
+  (Session info: chrome=116.0.5845.141); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-01 20:02:35,883]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 276, in mute_swap
+    self.mute_change_tokens(token1, count1, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 519, in mute_change_tokens
+    self.mute_chose_token(tokens[num])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 591, in mute_chose_token
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[2]/div[3]/input')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-02 03:34:12,631]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 398, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-02 03:35:14,699]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 398, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 398, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-02 03:36:19,089]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 398, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 398, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 204, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 398, in syncswap_add_liquiduty
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="container"]/div/div[5]/div/div/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div[2]/button')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-02 03:46:18,759]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 276, in mute_swap
+    self.mute_change_tokens(token1, count1, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 519, in mute_change_tokens
+    self.mute_chose_token(tokens[num])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 591, in mute_chose_token
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[2]/div[3]/input')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+[INFO:2023-09-02 03:48:27,818]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 276, in mute_swap
+    self.mute_change_tokens(token1, count1, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 519, in mute_change_tokens
+    self.mute_chose_token(tokens[num])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 591, in mute_chose_token
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[2]/div[3]/input')))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 284, in mute_swap
+    self.confirm_tx()
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 55, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 233, in confirm_tx
+    raise Exception('Не удался конфирм')
+Exception: Не удался конфирм
+
+[INFO:2023-09-02 03:51:41,284]: 
+
+
+
+Ошибка в обмене токенов 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 276, in mute_swap
+    self.mute_change_tokens(token1, count1, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 519, in mute_change_tokens
+    buttons = (btn1, btn2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 591, in mute_chose_token
+    input1.send_keys(str(count1))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E0352A2+57122]
+	(No symbol) [0x00007FF75DFAEA92]
+	(No symbol) [0x00007FF75DE7E3AB]
+	(No symbol) [0x00007FF75DEB7D3E]
+	(No symbol) [0x00007FF75DEB7E2C]
+	(No symbol) [0x00007FF75DEF0B67]
+	(No symbol) [0x00007FF75DED701F]
+	(No symbol) [0x00007FF75DEEEB82]
+	(No symbol) [0x00007FF75DED6DB3]
+	(No symbol) [0x00007FF75DEAD2B1]
+	(No symbol) [0x00007FF75DEAE494]
+	GetHandleVerifier [0x00007FF75E2DEF82+2849794]
+	GetHandleVerifier [0x00007FF75E331D24+3189156]
+	GetHandleVerifier [0x00007FF75E32ACAF+3160367]
+	GetHandleVerifier [0x00007FF75E0C6D06+653702]
+	(No symbol) [0x00007FF75DFBA208]
+	(No symbol) [0x00007FF75DFB62C4]
+	(No symbol) [0x00007FF75DFB63F6]
+	(No symbol) [0x00007FF75DFA67A3]
+	BaseThreadInitThunk [0x00007FF8F73E7614+20]
+	RtlUserThreadStart [0x00007FF8F7EC26B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 41, in inner_swap
+    func(token1, count, token2)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\Trader.py", line 284, in mute_swap
+    self.confirm_tx()
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 55, in inner
+    func(self, *args, **kwargs)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\metamask.py", line 233, in confirm_tx
+    raise Exception('Не удался конфирм')
+Exception: Не удался конфирм
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 56, in inner_swap
+    raise Exception
+Exception
+
+[INFO:2023-09-02 03:53:17,528]: 
+
+
+
+Ошибка в процессе вывода средств с биржи 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\okx.py", line 114, in okx_withdraw
+    withdraw = exchange.withdraw('ETH', amount+fee, address,
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\ccxt\okx.py", line 4099, in withdraw
+    response = self.privatePostAssetWithdrawal(self.extend(request, query))
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\ccxt\base\types.py", line 26, in unbound_method
+    return _self.request(self.path, self.api, self.method, params, config=self.config)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\ccxt\base\exchange.py", line 3019, in request
+    return self.fetch2(path, api, method, params, headers, body, config)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\ccxt\base\exchange.py", line 3016, in fetch2
+    return self.fetch(request['url'], request['method'], request['headers'], request['body'])
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\ccxt\base\exchange.py", line 644, in fetch
+    self.handle_errors(http_status_code, http_status_text, url, method, headers, http_response, json_response, request_headers, request_body)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\ccxt\okx.py", line 6321, in handle_errors
+    self.throw_exactly_matched_exception(self.exceptions['exact'], code, feedback)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\venv\lib\site-packages\ccxt\base\exchange.py", line 3382, in throw_exactly_matched_exception
+    raise exact[string](message)
+ccxt.base.errors.InsufficientFunds: okx {"code":"58350","data":[],"msg":"Insufficient balance"}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\main.py", line 172, in work
+    okx_withdraw(self.public_key, volume, self.my_number)
+  File "C:\Users\Vanusha\PycharmProjects\pythonProject\arbitrage\Traders\okx.py", line 144, in okx_withdraw
+    raise Exception(f'Для перевода на аккаунт {num}. недостаточно средств, требуется {amount+fee}')
+Exception: Для перевода на аккаунт 1. недостаточно средств, требуется 0.043149999999999994
+
