@@ -63,7 +63,7 @@ class Metamask(SeleniumArb):
                 shutil.copyfileobj(r.raw, f)
 
     def open_chrome_with_metamask(self):
-        chrome_driver_path = 'files/chromedriver-win64/chromedriver-win64/chromedriver.exe'
+        chrome_driver_path = 'files/chromedriver-win64/chromedriver.exe'
         chrome_service = Service(executable_path=chrome_driver_path)
         if self.proxy:
             from seleniumwire import webdriver

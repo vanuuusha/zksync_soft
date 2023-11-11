@@ -18,6 +18,8 @@ TOKENS = {
     'iZi':  ['0x16a9494e257703797d747540f01683952547ee5b', 18],
     'SPACE':  ['0x47260090ce5e83454d5f05a0abbb2c953835f777', 18],
     'MAV':  ['0x787c09494ec8bcb24dcaf8659e7d5d69979ee508', 18],
+    'ZZ': ['0x1ab721f531Cab4c87d536bE8B985EAFCE17f0184', 18],
+    'DVF': ['0xBbD1bA24d589C319C86519646817F2F153c9B716', 18]
 }
 
 RPC = 'https://mainnet.era.zksync.io'

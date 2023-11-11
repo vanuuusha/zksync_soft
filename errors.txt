@@ -1666,3 +1666,687 @@ Traceback (most recent call last):
     raise Exception(f'Для перевода на аккаунт {num}. недостаточно средств, требуется {amount+fee}')
 Exception: Для перевода на аккаунт 1. недостаточно средств, требуется 0.043149999999999994
 
+[INFO:2023-11-12 01:03:26,656]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 71, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:04:26,561]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 71, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 71, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:05:26,605]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 71, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 71, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 71, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:06:39,285]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 71, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:11:07,690]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 64, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:13:31,138]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 64, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:38:33,147]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 176, in eralend_supply
+    self.get_site('eralend')
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 36, in get_site
+    self.init_site(name)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 40, in init_site
+    init_method(connect)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 171, in eralend_init
+    self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:39:53,956]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 176, in eralend_supply
+    self.get_site('eralend')
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 36, in get_site
+    self.init_site(name)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 40, in init_site
+    init_method(connect)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 171, in eralend_init
+    self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 176, in eralend_supply
+    self.get_site('eralend')
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 36, in get_site
+    self.init_site(name)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 40, in init_site
+    init_method(connect)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 171, in eralend_init
+    self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:41:15,031]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 176, in eralend_supply
+    self.get_site('eralend')
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 36, in get_site
+    self.init_site(name)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 40, in init_site
+    init_method(connect)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 171, in eralend_init
+    self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 176, in eralend_supply
+    self.get_site('eralend')
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 36, in get_site
+    self.init_site(name)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 40, in init_site
+    init_method(connect)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 171, in eralend_init
+    self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 176, in eralend_supply
+    self.get_site('eralend')
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 36, in get_site
+    self.init_site(name)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 40, in init_site
+    init_method(connect)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 171, in eralend_init
+    self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:46:12,206]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 196, in eralend_withdraw
+    self.wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="markets-modal"]/div/div/div[1]/div/div/button[2]/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:48:42,768]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 179, in eralend_supply
+    elem = self.driver.find_element(By.XPATH, '//*[@id="simple-tabpanel-0"]/form/div/div[1]/div[1]/div[2]/input')
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+
+[INFO:2023-11-12 01:51:09,161]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 196, in eralend_withdraw
+    self.wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="markets-modal"]/div/div/div[1]/div/div/button[2]/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF74BE182B2+55298]
+	(No symbol) [0x00007FF74BD85E02]
+	(No symbol) [0x00007FF74BC405AB]
+	(No symbol) [0x00007FF74BC8175C]
+	(No symbol) [0x00007FF74BC818DC]
+	(No symbol) [0x00007FF74BCBCBC7]
+	(No symbol) [0x00007FF74BCA20EF]
+	(No symbol) [0x00007FF74BCBAAA4]
+	(No symbol) [0x00007FF74BCA1E83]
+	(No symbol) [0x00007FF74BC7670A]
+	(No symbol) [0x00007FF74BC77964]
+	GetHandleVerifier [0x00007FF74C190AAB+3694587]
+	GetHandleVerifier [0x00007FF74C1E728E+4048862]
+	GetHandleVerifier [0x00007FF74C1DF173+4015811]
+	GetHandleVerifier [0x00007FF74BEB47D6+695590]
+	(No symbol) [0x00007FF74BD90CE8]
+	(No symbol) [0x00007FF74BD8CF34]
+	(No symbol) [0x00007FF74BD8D062]
+	(No symbol) [0x00007FF74BD7D3A3]
+	BaseThreadInitThunk [0x00007FFDE4B07344+20]
+	RtlUserThreadStart [0x00007FFDE51426B1+33]
+
+

@@ -192,12 +192,17 @@ class Worker:
             'DOMEN': settings.DOMEN,
             'eralend_supply': settings.eralend_supply,
             'eralend_withdraw': settings.eralend_withdraw,
+            'eralend_count': random.randint(settings.eralend_count_supply[0], settings.eralend_count_supply[1]),
             'zkswap': settings.zkswap,
             'zkswap_count_swap': random.randint(settings.zkswap_count_swap[0], settings.zkswap_count_swap[1]),
             'izi_token': settings.IZI_TOKEN,
             'cake_token': settings.CAKE_TOKEN,
             'space_token': settings.SPACE_TOKEN,
             'mav_token': settings.MAV_TOKEN,
+            'ZZ_TOKEN': settings.ZZ_TOKEN,
+            'DVF_TOKEN': settings.DVF_TOKEN,
+            'nft': settings.NFT,
+            'nft_count': random.randint(settings.NFT_count[0], settings.NFT_count[1])
         }
         while True:
             print_with_time(f'Аккаунт {self.my_number}. Начинаю новый цикл действий')
@@ -291,11 +296,61 @@ class Worker:
                 print_with_time(f'Аккаунт {self.my_number}. Завершена покупка токенов izi')
                 settings_copy['izi_token'] = False
 
+            if settings_copy['ZZ_TOKEN'] and random_mod == 4:
+                print_with_time(f'Аккаунт {self.my_number}. Начинаю процесс покупки токена ZZ')
+                max_fee = get_tx_max_price(2)
+                eth_balance = get_now_eth_balance(self.mnemonic)
+                want_to_spend = settings.count_zz - settings.count_zz * random.randint(1, 5) / 100
+                if eth_balance < max_fee + want_to_spend:
+                    print_with_time(f'Аккаунт {self.my_number} недостаточно баланса для транзакций')
+                    settings_copy['STOP'] = True
+                    break
+
+                balance = self.syncswap_swapper(settings_copy, want_to_spend, 'ETH', 'ZZ')
+                if settings_copy.get('STOP', False):
+                    settings_copy['ZZ_TOKEN'] = False
+                    break
+                if balance == 0:
+                    settings_copy['ZZ_TOKEN'] = False
+                    continue
+
+                self.syncswap_swapper(settings_copy, balance, 'ZZ', 'ETH')
+                if settings_copy.get('STOP', False):
+                    settings_copy['ZZ_TOKEN'] = False
+                    break
+                print_with_time(f'Аккаунт {self.my_number}. Завершена покупка токенов ZZ')
+                settings_copy['ZZ_TOKEN'] = False
+
+            if settings_copy['DVF_TOKEN'] and random_mod == 3:
+                print_with_time(f'Аккаунт {self.my_number}. Начинаю процесс покупки токена DVF')
+                max_fee = get_tx_max_price(2)
+                eth_balance = get_now_eth_balance(self.mnemonic)
+                want_to_spend = settings.count_zz - settings.count_zz * random.randint(1, 5) / 100
+                if eth_balance < max_fee + want_to_spend:
+                    print_with_time(f'Аккаунт {self.my_number} недостаточно баланса для транзакций')
+                    settings_copy['STOP'] = True
+                    break
+
+                balance = self.syncswap_swapper(settings_copy, want_to_spend, 'ETH', 'DVF')
+                if settings_copy.get('STOP', False):
+                    settings_copy['DVF_TOKEN'] = False
+                    break
+                if balance == 0:
+                    settings_copy['DVF_TOKEN'] = False
+                    continue
+
+                self.syncswap_swapper(settings_copy, balance, 'DVF', 'ETH')
+                if settings_copy.get('STOP', False):
+                    settings_copy['DVF_TOKEN'] = False
+                    break
+                print_with_time(f'Аккаунт {self.my_number}. Завершена покупка токенов DVF')
+                settings_copy['DVF_TOKEN'] = False
+
             if settings_copy['mav_token'] and random_mod == 2:
                 print_with_time(f'Аккаунт {self.my_number}. Начинаю процесс покупки токена mav')
                 max_fee = get_tx_max_price(2)
                 eth_balance = get_now_eth_balance(self.mnemonic)
-                want_to_spend = settings.count_MAV - settings.count_MAV * random.randint(1, 5) / 100
+                want_to_spend = settings.count_dvf - settings.count_dvf * random.randint(1, 5) / 100
                 try:
                     want_to_spend = float(str(want_to_spend)[:8])
                 except Exception:
@@ -588,21 +643,6 @@ class Worker:
                 print_with_time(f'Аккаунт {self.my_number}: бридж в сеть эфира был завершен')
                 settings_copy['BRIDGE'] = False
 
-            if settings_copy['eralend_supply'] and random_mod == 4:
-                print_with_time(f'Аккаунт {self.my_number}: Пытаюсь добавить обеспечение в eralend')
-                count_eth = settings.eralend_supply_amount
-                eth_balance = get_now_eth_balance(self.mnemonic)
-                if count_eth + get_tx_max_price(1) > eth_balance:
-                    raise Exception('Недосточно баланса для добавления обеспечения')
-
-                result = retry('eralend_supply')(self, count_eth)
-                if result:
-                    print_with_time(f'Аккаунт {self.my_number}: Добавлена обеспечение в eralend')
-                else:
-                    print_with_time(f'Аккаунт {self.my_number}: Не удалось добавить обеспечение в eralend')
-                print_with_time(f'Аккаунт {self.my_number}: Обеспечение в eralend было добавлено')
-                settings_copy['eralend_supply'] = False
-
             if settings_copy['DOMEN'] and random_mod == 3:
                 print_with_time(f'Аккаунт {self.my_number}. Начинаю процесс покупки домена')
                 eth_balance = get_now_eth_balance(self.mnemonic)
@@ -617,27 +657,54 @@ class Worker:
                 print_with_time(f'Аккаунт {self.my_number}: работа с доменом завершена')
                 settings_copy['DOMEN'] = False
 
-            if all(element is False for element in [settings_copy['DOMEN'], settings_copy['BRIDGE'], settings_copy['MUTE_REMOVE_LIQUIDUTY'], settings_copy['MUTE_LIQUIDUTY'], settings_copy['mav'], settings_copy['pancake'], settings_copy['mute'], settings_copy['syncswap'], settings_copy['space'], settings_copy['SYNCSWAP_LIQUIDUTY'], settings_copy['eralend_supply'], settings_copy['cake_token'], settings_copy['mav_token'], settings_copy['izi_token'], settings_copy['space_token']]):
+            if all(element is False for element in [settings_copy['DOMEN'], settings_copy['DVF_TOKEN'], settings_copy['BRIDGE'], settings_copy['MUTE_REMOVE_LIQUIDUTY'], settings_copy['MUTE_LIQUIDUTY'], settings_copy['mav'], settings_copy['pancake'], settings_copy['mute'], settings_copy['syncswap'], settings_copy['space'], settings_copy['SYNCSWAP_LIQUIDUTY'], settings_copy['cake_token'], settings_copy['mav_token'], settings_copy['izi_token'], settings_copy['space_token'], settings_copy['ZZ_TOKEN'], ]):
                 break
 
         if settings_copy.get('STOP'):
             print_with_time(f'Аккаунт {self.my_number}. Произошла ошибка, поэтому работа над аккаунтом не была закончена')
             return
+        while settings_copy['eralend_count'] > 0:
+            if settings_copy['eralend_supply']:
+                print_with_time(f'Аккаунт {self.my_number}: Пытаюсь добавить обеспечение в eralend')
+                count_eth = settings.eralend_supply_amount
+                eth_balance = get_now_eth_balance(self.mnemonic)
+                if count_eth + get_tx_max_price(1) > eth_balance:
+                    raise Exception('Недосточно баланса для добавления обеспечения')
 
-        if settings_copy['eralend_withdraw']:
-            print_with_time(f'Аккаунт {self.my_number}: Пытаюсь вывести обеспечение в eralend')
-            count_eth = settings.eralend_withdraw_amount
-            eth_balance = get_now_eth_balance(self.mnemonic)
-            if get_tx_max_price(1) > eth_balance:
-                raise Exception('Недосточно баланса для вывода из eralend')
+                result = retry('eralend_supply')(self, count_eth)
+                if result:
+                    print_with_time(f'Аккаунт {self.my_number}: Добавлена обеспечение в eralend')
+                else:
+                    print_with_time(f'Аккаунт {self.my_number}: Не удалось добавить обеспечение в eralend')
+                print_with_time(f'Аккаунт {self.my_number}: Обеспечение в eralend было добавлено')
 
-            result = retry('eralend_withdraw')(self, count_eth)
-            if result:
-                print_with_time(f'Аккаунт {self.my_number}: Успешный вывод из eralend')
-            else:
-                print_with_time(f'Аккаунт {self.my_number}: Не удался вывод из eralend')
-            print_with_time(f'Аккаунт {self.my_number}: eralend вывод средс был завершен')
-            settings_copy['eralend_withdraw'] = False
+            if settings_copy['eralend_withdraw']:
+                print_with_time(f'Аккаунт {self.my_number}: Пытаюсь вывести обеспечение в eralend')
+                count_eth = settings.eralend_withdraw_amount
+                eth_balance = get_now_eth_balance(self.mnemonic)
+                if get_tx_max_price(1) > eth_balance:
+                    raise Exception('Недосточно баланса для вывода из eralend')
+
+                result = retry('eralend_withdraw')(self, count_eth)
+                if result:
+                    print_with_time(f'Аккаунт {self.my_number}: Успешный вывод из eralend')
+                else:
+                    print_with_time(f'Аккаунт {self.my_number}: Не удался вывод из eralend')
+                print_with_time(f'Аккаунт {self.my_number}: eralend вывод средс был завершен')
+
+            settings_copy['eralend_count'] -= 1
+
+        if settings_copy['nft']:
+            while settings_copy['nft_count'] >= 0:
+                link = random.choice(settings.NFT_LINKS)
+                print_with_time(f'Аккаунт {self.my_number}: Пытаюсь купить NFT {link}')
+                result = retry('get_nft')(self, link)
+                if result:
+                    print_with_time(f'Аккаунт {self.my_number}: NFT куплено')
+                else:
+                    print_with_time(f'Аккаунт {self.my_number}: NFT не было куплено')
+                print_with_time(f'Аккаунт {self.my_number}: завершил покупку NFT')
+
 
         if settings.WITHDRAW_MONEY:
             print_with_time(f'Аккаунт {self.my_number}. Собираюсь выводить деньги')

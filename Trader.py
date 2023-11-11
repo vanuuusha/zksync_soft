@@ -59,6 +59,22 @@ class Trader(Metamask):
         self.click(self.driver.find_element(By.XPATH, '//*[@id="container"]/div/div[2]/div/div/div/div/div[1]/div[2]/div[1]/div[2]/p'))
         self.connect_to_site()
 
+    def get_nft(self, link):
+        self.open_page(link)
+        self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/button')))
+        self.wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/button')))
+        self.click(self.driver.find_element(By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/button'))
+        time.sleep(2)
+        self.click(self.driver.find_element(By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div/div/div[1]/div[2]/div[2]/div[1]/button/div/div/div[2]/div'))
+        self.connect_to_site()
+        time.sleep(2)
+        self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+        self.wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button')))
+        self.click(self.driver.find_element(By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/div/button'))
+        self.confirm_tx()
+        time.sleep(10)
+
+
     def space_init(self, connect):
         self.space_now_selected = ['ETH', '']
         self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="connect-wallet"]')))
@@ -152,9 +168,9 @@ class Trader(Metamask):
         self.click(elem)
         self.connect_to_site()
         time.sleep(5)
-        self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
-        self.big_wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button')))
-        self.click(self.driver.find_element(By.XPATH, '//*[@id="__next"]/div[1]/div[3]/div[3]/div[2]/div[8]/button'))
+        self.big_wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div[1]/div[2]/div[3]/div[2]/div[8]/button')))
+        self.big_wait.until(EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/div[1]/div[2]/div[3]/div[2]/div[8]/button')))
+        self.click(self.driver.find_element(By.XPATH, '//*[@id="__next"]/div[1]/div[2]/div[3]/div[2]/div[8]/button'))
 
     def eralend_supply(self, count_eth):
         self.get_site('eralend')
