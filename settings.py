@@ -39,9 +39,9 @@ mav_swap = [2, 2] # количество транзакция случайное
 zkswap = False
 zkswap_count_swap = [2, 2]
 
-eralend_supply = True
+eralend_supply = False
 eralend_supply_amount = 0.001 # количество в ETH
-eralend_withdraw = True
+eralend_withdraw = False
 eralend_withdraw_amount = 0.001 # количество в ETH
 eralend_count_supply = [2, 2]
 
@@ -67,9 +67,9 @@ count_SPACE = 0.001 # на сколько ETH купить токенов PVP
 MAV_TOKEN = False
 count_MAV = 0.001 # на сколько ETH купить токенов MAV
 
-MAX_ETH_GAS_PRICE = 35 # софт будет ожидать пока цена на газ спустится ниже данной отметки
+MAX_ETH_GAS_PRICE = 60 # софт будет ожидать пока цена на газ спустится ниже данной отметки
 
-WITHDRAW_MONEY = False #Выводить ли оставшийся ETH в OKX
+WITHDRAW_MONEY = True #Выводить ли оставшийся ETH в OKX
 percentage = 80 # Сколько процентов оставшигося эфира выводить в OKX (не учитывая комиссию)
 
 NFT = False

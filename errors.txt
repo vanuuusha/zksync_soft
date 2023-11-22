@@ -2350,3 +2350,304 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FFDE51426B1+33]
 
 
+[INFO:2023-11-22 18:09:35,127]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 480, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/input')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62AE4175C]
+	(No symbol) [0x00007FF62AE418DC]
+	(No symbol) [0x00007FF62AE7CBC7]
+	(No symbol) [0x00007FF62AE620EF]
+	(No symbol) [0x00007FF62AE7AAA4]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
+[INFO:2023-11-22 18:16:43,149]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 480, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/input')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62AE4175C]
+	(No symbol) [0x00007FF62AE418DC]
+	(No symbol) [0x00007FF62AE7CBC7]
+	(No symbol) [0x00007FF62AE620EF]
+	(No symbol) [0x00007FF62AE7AAA4]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
+[INFO:2023-11-22 18:22:46,965]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 485, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/span/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62AE4175C]
+	(No symbol) [0x00007FF62AE418DC]
+	(No symbol) [0x00007FF62AE7CBC7]
+	(No symbol) [0x00007FF62AE620EF]
+	(No symbol) [0x00007FF62AE7AAA4]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
+[INFO:2023-11-22 18:24:16,608]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 486, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/span/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 86, in until
+    value = method(self._driver)
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 152, in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 739, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 345, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=119.0.6045.160)
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62ADE0038]
+	(No symbol) [0x00007FF62AE66BC7]
+	(No symbol) [0x00007FF62AE7A15F]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
+[INFO:2023-11-22 18:32:39,173]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 486, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/span/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62AE4175C]
+	(No symbol) [0x00007FF62AE418DC]
+	(No symbol) [0x00007FF62AE7CBC7]
+	(No symbol) [0x00007FF62AE620EF]
+	(No symbol) [0x00007FF62AE7AAA4]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
+[INFO:2023-11-22 18:34:12,726]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 486, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/span/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62AE4175C]
+	(No symbol) [0x00007FF62AE418DC]
+	(No symbol) [0x00007FF62AE7CBC7]
+	(No symbol) [0x00007FF62AE620EF]
+	(No symbol) [0x00007FF62AE7AAA4]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
+[INFO:2023-11-22 18:35:23,587]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 486, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/span/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62AE4175C]
+	(No symbol) [0x00007FF62AE418DC]
+	(No symbol) [0x00007FF62AE7CBC7]
+	(No symbol) [0x00007FF62AE620EF]
+	(No symbol) [0x00007FF62AE7AAA4]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 486, in orbiter
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="app"]/div[1]/div[2]/div/div[2]/div/span/span')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF62AFD82B2+55298]
+	(No symbol) [0x00007FF62AF45E02]
+	(No symbol) [0x00007FF62AE005AB]
+	(No symbol) [0x00007FF62AE4175C]
+	(No symbol) [0x00007FF62AE418DC]
+	(No symbol) [0x00007FF62AE7CBC7]
+	(No symbol) [0x00007FF62AE620EF]
+	(No symbol) [0x00007FF62AE7AAA4]
+	(No symbol) [0x00007FF62AE61E83]
+	(No symbol) [0x00007FF62AE3670A]
+	(No symbol) [0x00007FF62AE37964]
+	GetHandleVerifier [0x00007FF62B350AAB+3694587]
+	GetHandleVerifier [0x00007FF62B3A728E+4048862]
+	GetHandleVerifier [0x00007FF62B39F173+4015811]
+	GetHandleVerifier [0x00007FF62B0747D6+695590]
+	(No symbol) [0x00007FF62AF50CE8]
+	(No symbol) [0x00007FF62AF4CF34]
+	(No symbol) [0x00007FF62AF4D062]
+	(No symbol) [0x00007FF62AF3D3A3]
+	BaseThreadInitThunk [0x00007FFF32B07344+20]
+	RtlUserThreadStart [0x00007FFF332C26B1+33]
+
+
