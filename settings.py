@@ -69,11 +69,11 @@ count_MAV = 0.001 # на сколько ETH купить токенов MAV
 
 MAX_ETH_GAS_PRICE = 60 # софт будет ожидать пока цена на газ спустится ниже данной отметки
 
-WITHDRAW_MONEY = True #Выводить ли оставшийся ETH в OKX
+WITHDRAW_MONEY = False #Выводить ли оставшийся ETH в OKX
 percentage = 80 # Сколько процентов оставшигося эфира выводить в OKX (не учитывая комиссию)
 
-NFT = False
-NFT_count = [2, 3]
+NFT = True
+NFT_count = [1, 1]
 NFT_LINKS = ['https://zksync_collection.nfts2.me/', 'https://zksyncnosybil.nfts2.me/', 'https://zksynckpass.nfts2.me/', 'https://zkevm_dropsss.nfts2.me/', 'https://zksync_airdropaas.nfts2.me/',  'https://cats-warriors.nfts2.me/', 'https://cats-teachers.nfts2.me/', 'https://cats-are-athletes.nfts2.me/', 'https://cats-are-bankers.nfts2.me/']
 
 WORK_ANTIDETECT_MODE = False

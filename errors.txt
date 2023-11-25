@@ -2651,3 +2651,77 @@ Stacktrace:
 	RtlUserThreadStart [0x00007FFF332C26B1+33]
 
 
+[INFO:2023-11-25 13:58:41,356]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 64, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6411382B2+55298]
+	(No symbol) [0x00007FF6410A5E02]
+	(No symbol) [0x00007FF640F605AB]
+	(No symbol) [0x00007FF640FA175C]
+	(No symbol) [0x00007FF640FA18DC]
+	(No symbol) [0x00007FF640FDCBC7]
+	(No symbol) [0x00007FF640FC20EF]
+	(No symbol) [0x00007FF640FDAAA4]
+	(No symbol) [0x00007FF640FC1E83]
+	(No symbol) [0x00007FF640F9670A]
+	(No symbol) [0x00007FF640F97964]
+	GetHandleVerifier [0x00007FF6414B0AAB+3694587]
+	GetHandleVerifier [0x00007FF64150728E+4048862]
+	GetHandleVerifier [0x00007FF6414FF173+4015811]
+	GetHandleVerifier [0x00007FF6411D47D6+695590]
+	(No symbol) [0x00007FF6410B0CE8]
+	(No symbol) [0x00007FF6410ACF34]
+	(No symbol) [0x00007FF6410AD062]
+	(No symbol) [0x00007FF64109D3A3]
+	BaseThreadInitThunk [0x00007FFF741A7344+20]
+	RtlUserThreadStart [0x00007FFF742E26B1+33]
+
+
+[INFO:2023-11-25 14:04:01,034]: 
+
+
+
+Ошибка в перезапускаемом процессе 
+Traceback (most recent call last):
+  File "C:\Users\Vanusha\zksync_soft\main.py", line 81, in inner
+    func(*args, **kwargs)
+  File "C:\Users\Vanusha\zksync_soft\Trader.py", line 64, in get_nft
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, '//*[@id="__next"]/div/div/main/div[1]/div/div[3]/div[2]/div/div/div[2]/div[3]/button')))
+  File "C:\Users\Vanusha\zksync_soft\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6411382B2+55298]
+	(No symbol) [0x00007FF6410A5E02]
+	(No symbol) [0x00007FF640F605AB]
+	(No symbol) [0x00007FF640FA175C]
+	(No symbol) [0x00007FF640FA18DC]
+	(No symbol) [0x00007FF640FDCBC7]
+	(No symbol) [0x00007FF640FC20EF]
+	(No symbol) [0x00007FF640FDAAA4]
+	(No symbol) [0x00007FF640FC1E83]
+	(No symbol) [0x00007FF640F9670A]
+	(No symbol) [0x00007FF640F97964]
+	GetHandleVerifier [0x00007FF6414B0AAB+3694587]
+	GetHandleVerifier [0x00007FF64150728E+4048862]
+	GetHandleVerifier [0x00007FF6414FF173+4015811]
+	GetHandleVerifier [0x00007FF6411D47D6+695590]
+	(No symbol) [0x00007FF6410B0CE8]
+	(No symbol) [0x00007FF6410ACF34]
+	(No symbol) [0x00007FF6410AD062]
+	(No symbol) [0x00007FF64109D3A3]
+	BaseThreadInitThunk [0x00007FFF741A7344+20]
+	RtlUserThreadStart [0x00007FFF742E26B1+33]
+
+

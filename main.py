@@ -695,7 +695,7 @@ class Worker:
             settings_copy['eralend_count'] -= 1
 
         if settings_copy['nft']:
-            while settings_copy['nft_count'] >= 0:
+            while settings_copy['nft_count'] > 0:
                 link = random.choice(settings.NFT_LINKS)
                 print_with_time(f'Аккаунт {self.my_number}: Пытаюсь купить NFT {link}')
                 result = retry('get_nft')(self, link)
@@ -704,6 +704,7 @@ class Worker:
                 else:
                     print_with_time(f'Аккаунт {self.my_number}: NFT не было куплено')
                 print_with_time(f'Аккаунт {self.my_number}: завершил покупку NFT')
+                settings_copy['nft_count'] -= 1
 
 
         if settings.WITHDRAW_MONEY:
